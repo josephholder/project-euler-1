@@ -6,16 +6,16 @@ import (
 
 func main() {
 
-	value := 0
+	sum := 0
 
 	three := 3
 	five := 5
 
 	for i := 0; i < 1000; i++ {
 		if i%three == 0 || i%five == 0 {
-			value += i
+			sum += i
 		}
 	}
 
-	fmt.Println(value)
+	fmt.Println(sum)
 }
